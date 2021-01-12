@@ -1,0 +1,138 @@
+
+
+/******************* Desktop  styles viewed at 992px and above *******************/
+        * {
+          box-sizing: border-box;
+          }
+          html {
+            font-family: Arial, Helvetica, monospace;
+            font-size: 1em;
+          }
+          p {
+            margin-top: 40px;
+          }
+          h1 {
+            text-align: center;
+            margin-bottom: 50px;
+            font-size: 1.75em;
+          }
+
+        .main_div {
+          /* background: red; */
+          width: 95%;
+          margin: 0 auto;
+          height: 450px;
+          /* border: 1px solid black; */
+
+        }
+        .content {
+          width: 99%;
+          margin: 0 auto;
+          /* background: yellow; */
+        }
+        .chicken {
+          position: relative;
+          background: #556B2F;
+          border: 1px solid black;
+          color: white;
+          width: 30%;
+          float: left;
+          margin-right: 3px;
+          padding: 2%;
+        }
+        .beef {
+          position: relative;
+          background: #2F4F4F;
+          /* background: green; */
+          border: 1px solid black;
+          color: white;
+          width: 30%;
+          float: left;
+          margin-right: 3px;
+          padding: 2%;
+        }
+        .sushi {
+          position: relative;
+          background: #B22222;
+          /* background: blue; */
+          border: 1px solid black;
+          color: white;
+          width: 30%;
+          float: left;
+          padding: 2%;
+
+        }
+
+/* "position" set to "absolute" to hold logo in top corner of box */
+        .logo {
+          position: absolute;
+          top: 0;
+          right: 0;
+          border: 1px solid black;
+          font-size: 1.25em;
+          text-align: center;
+          background: #DCDCDC;
+          color: black;
+          padding: 1%;
+          width: 100px;
+          font-weight: 900;
+        }
+/********************** End individual logo styles *************************/
+
+/*************************** Media Queries *******************************/
+/*************************************************************************/
+
+
+/*********** @media Desktop View 992px and above ***************/
+@media (min-width: 992px) {
+.chicken {
+width: 33%;
+
+}
+.beef {
+width: 33%;
+}
+.sushi {
+width: 33%;
+}
+}
+/********************** End Desktop View ****************/
+
+
+/*********** Tablet View between 768px and 991px *******/
+@media (min-width: 768px) and (max-width: 991px) {
+.chicken {
+width: 49%;
+margin-right: 10px;
+}
+.beef {
+width: 49%;
+}
+.sushi {
+width: 99%;
+margin-top: 20px;
+}
+}
+
+/********************** End Tablet View ****************/
+
+/****** Mobile View Equal To Or Less Than 767px ********/
+@media (max-width: 767px) {
+.chicken {
+width: 99%;
+margin-bottom: 20px;
+}
+.beef {
+width: 99%;
+margin-bottom: 20px;
+}
+.sushi {
+width: 99%;
+}
+
+}
+
+/****************** End Mobile View ********************/
+
+/*************************** End Media Queries******************************/
+/***************************************************************************/
